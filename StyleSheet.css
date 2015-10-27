@@ -1,0 +1,73 @@
+﻿body {
+}
+* {
+font-family:'Microsoft YaHei';
+}
+
+/*頂部*/
+.headerbar {
+height:150px;
+line-height:150px;
+background-color:#dcdcdc;
+text-align:center;
+}
+
+/*導覽*/
+.navbar{
+    background-color:white;
+    height:60px;
+    text-align:center;
+
+}
+.navitem a{
+    padding:0px 20px;
+    font:20px 'Microsoft YaHei';
+    color:black;
+    line-height:60px;
+    text-decoration:none;
+}
+a:hover {
+    color: #1e90ff;
+}
+.active-box {
+    height:30px; width:60px;
+    padding-top:30px;
+    background-color:yellow;
+}
+
+/*佳句*/
+.sayingbar {
+    border: 1px solid #ddd;
+    height: 450px;
+    width:100%;
+    background-color: #f5f5f5;
+}
+
+.lovesaying, .encouragesaying, .celebritysaying {
+    width:49%;
+    float:left;
+    font-size:20px;
+    padding-top:10px;
+    padding-left:10px;
+}
+
+.loveimage, .encourageimage, .celebrityimage {
+    width:49%;
+    float:right;
+    padding-top:13px;
+}
+
+.none-text {
+    display:none;
+}
+.none-image {
+    display:none;
+}
+
+.active-text{
+    display:block;
+}
+
+.active-image{
+    display:block;
+}
